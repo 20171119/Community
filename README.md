@@ -1,6 +1,7 @@
 # COMMUNITY
 
 > 강수아, 박종서 
+> Android(Java), NodeJS, MongoDB
 
 ## 로그인 및 회원가입
   <img src= "https://user-images.githubusercontent.com/63537847/125448289-20d9d367-e33e-456f-a859-c234e328204d.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/63537847/125448631-eb37713a-a96f-4341-9b60-f9892c7b5fc2.png" width="200" height="400">
@@ -36,6 +37,12 @@
    - 본인이 쓴 글을 클릭하면 오른쪽 상단에 수정 버튼이 보임. 해당 버튼을 클릭하면 글을 수정할 수 있음
    - 본인이 쓴 글이 아닌 경우, 수정 버튼이 보이지 않음 
    - 본인이 쓴 글을 길게 클릭한 경우 글을 삭제할 수 있음 
+
+<-- Line-->
+   - MongoDB 를 사용해서 3개의 모델을 MongoSchema를 통해 만듬 (User, Table, Comment)
+   - NodeJS의 router 를 이용해 '/user', '/table', '/comment' 세 개의 url 구분
+   - NodeJS의 mongoose 를 이용해 Table과 Comment의 CRUD 구현
+
    
    
   ##  > 채팅 탭 
